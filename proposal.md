@@ -10,40 +10,34 @@ primary audience is.*
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2025-11-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Does the project have an AI contribution policy? | link |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Repository URL |  https://github.com/JuliaNLSolvers/Optim.jl  |
+| Main/documentation website | https://julianlsolvers.github.io/Optim.jl/stable/   |
+| Year project was started |  2012 |
+| Number of contributors in the past year | 12 with 131 commits |
+| Number of contributors in the lifetime of the project |  123 |
+| Number of distinct affiliations | Of users in the last year >5 , The two individuals with the most commits both work for PumasAI |
+| Where do development discussions take place? | Glitter and the slack channel  |
+| Typical number of emails/comments per week? | 2ish issues/pull requests weekly  |
+| Typical number of commits per week? | 2.5 avg commits in 2026 per week |
+| Typical commit size | Typically 3-4 files changed with 50-200 insertions, 2-8 deletions|
+| How does the project accept contributions? | Pull requests are accepted, if you want to add an algorithm its recommended you talk to the current contributors via glitter, if you are filing an issue you need to give a minimum working example   |
+| Does the project have an automated test suite? | It seems like there is an automated test suite |
+| Does the project use continuous integration? | yes |
+| Does the project have an AI contribution policy? | No -- but AI contributors have contributed|
+| Are any legal/licensing steps required to contribute? | This project has the MIT license, You do not need to take any steps to contribute|
 
 ### Install and run
 
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [ ] I have installed the software
-- [ ] I have run at least one example
-- [ ] I have run the test suite
-- [ ] The test suite passes
+- [X] I have installed the software
+- [X] I have run at least one example
+- [X] I have run the test suite
+- [X] The test suite passes (test suite passed overall, but said there were broken tests)
 
 ### Notes/concerns/risks
-
-Please comment on any anomalies or known risks to following this
-project, if you were unable to answer any questions above, or
-otherwise have concerns about the appropriateness of the software.  If
-the project requires a contributor license agreement or other
-procedural steps, please explain here.  "None at this time" is
-acceptable for this question.
+When I ran the test suite it said that the tests passed but then it said 73 tests were broken. This is a potential issue with this software. Also the test suite took forever to run, but I don't know how abnormal this is.
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
